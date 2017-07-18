@@ -1,0 +1,25 @@
+body{
+	padding: 0px;
+	background-color:#9ffff2
+}
+
+.header{
+	display: block;
+	height: 50px;
+	background-color: #01538f;
+}
+.title > h2{
+	display: flex;
+	font-size: 24px;
+	text-align: right;
+	color: white;
+}
+
+.block{
+	display: inline-block;
+}
+
+.marker{
+	height: 10px;
+	background-color: #01538f;
+}
