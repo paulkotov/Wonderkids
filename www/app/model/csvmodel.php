@@ -13,7 +13,7 @@ class Csvmodel
     public function get_record($id)
     {
         $this->connector->start();
-        $rown = $this->connector->get($id);
+        $row = $this->connector->get($id);
         $this->connector->close();
         return  $row;
     }
